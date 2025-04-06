@@ -1,4 +1,4 @@
-package kr.ac.hansung.controller;
+package kr.ac.hansung.cse.controller;
 
 import jakarta.servlet.http.HttpServletRequest;
 import org.slf4j.Logger;
