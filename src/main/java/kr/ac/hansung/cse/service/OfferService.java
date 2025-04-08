@@ -12,6 +12,10 @@ public class OfferService {
     //service ->dao 호출
     @Autowired
     private OfferDao offerDao;
+
+    public void insertOffer(Offer offer) {
+        offerDao.insert(offer);
+    }
     public List<Offer> getAlloffers() {
         return offerDao.getOffers();
     }
