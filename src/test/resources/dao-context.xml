@@ -13,7 +13,7 @@
 
 
     <context:property-placeholder
-            location="/WEB-INF/props/jdbc.properties" />
+            location="/jdbc.properties" />
 
     <bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource"
           destroy-method="close">
